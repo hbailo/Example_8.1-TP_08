@@ -27,3 +27,12 @@ tickerCallbackBrightControl()
     └── mbed (library) para el manejo de las salidas digitales
 
 El PWM se actualiza automáticamente y no requiere de llamar una función update() en el módulo.
+
+
+# Captura del PWM
+
+En la siguiente imágen se muestra una captura del PWM generado para los 3 leds.
+
+<picture>
+    <img src=img/pwm-1.png>
+</picture>
