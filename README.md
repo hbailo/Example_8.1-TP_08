@@ -19,11 +19,15 @@ Esto se debe debido a que el ticker genera una interrupción cada una cantidad e
 # Árbol de funciones
 
 brightControlInit()
+
     ├── setPeriod()
+
     ├── setDutyCycle()
+
     └── mbed (library) para el manejo del ticker
 
 tickerCallbackBrightControl()
+
     └── mbed (library) para el manejo de las salidas digitales
 
 El PWM se actualiza automáticamente y no requiere de llamar una función update() en el módulo.
